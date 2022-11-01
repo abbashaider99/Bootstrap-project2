@@ -1,0 +1,297 @@
+*{
+    font-family: arial;
+}
+
+/* top navbar */
+#top_nav{
+    background-color: #daac00;
+    padding: 0 8%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_items{
+    margin: 0px 10px;
+}
+
+#searchbox{
+    outline: 1px solid yellow;
+    background-color: #fcc302;
+    border: 0px;
+    position: relative;
+    left: 47px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 991px){
+    #searchform{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: -45px;
+    }
+}
+
+/* banner  */
+
+.banner{
+    background-color:#fcc302;
+}
+
+.banner-text, .banner-img{
+    margin-top: 40px;
+}
+.banner-text h1{
+    font-weight: bold !important;
+    color: white;
+    font-size: 65px;
+}
+
+#banner-btn-1{
+    background-color:#00bec9;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #04949ca5;
+    margin-top: 25px;
+    box-shadow: 0px 0px 12px rgb(183, 179, 179);
+}
+#banner-btn-1:hover{
+    background-color: white;
+    color: #00bec9;
+    border-radius: 4px;
+    border: 2px solid #00bec9;
+    margin-top: 25px;
+}
+#banner-btn-2{
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid white;
+    margin-left: 8px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 12px rgb(183, 179, 179);
+}
+#banner-btn-2:hover{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid yellow;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+
+#banner-img{
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 1300px){
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .banner{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width: 815px){
+    .banner-text h1 {
+        font-size: 40px;
+      }
+      .banner-img img{
+        padding-right: 40px;
+      }
+      .banner-img, .banner-text{
+        padding: 0px 50px;
+      }
+}
+
+@media only screen and (max-width: 480px){
+    .banner-text h1{
+        font-size: 35px;
+    }
+}
+
+/* services  */
+#service_btn{
+    background-color:#fcc302;
+    box-shadow: 0px 0px 10px rgb(197, 194, 194);
+    margin-top: 3%;
+}
+#service_img{
+    padding: 10%;
+    margin-top: 5%;
+}
+
+#service-text{
+    padding: 10%; 
+}
+
+
+@media only screen and (min-width: 768px){
+    #service-text{
+       padding: 5% 2% 5% 2%;
+    }
+    #service_img{
+        padding-top: 3%;
+    }
+}
+
+/* counter section  */
+#counter-section{
+    background-color: #fcc302;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7% 0%;
+    color: white;
+}
+
+#counter-section h3{
+    font-weight: bold;
+}
+
+#counter-section i{
+    font-size: 60px;
+}
+.services-box{
+    background-color: #daac00;
+    margin: 0% 3%;
+    padding: 3% 0%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgb(204, 202, 202);
+}
+.services-box:hover{
+    box-shadow: 0px 0px 10px white;    
+}
+
+@media only screen and (max-width: 768px){
+    .services-box {
+        background-color: #daac00;
+        margin: 3% 3%;
+        padding: 3% 0%;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px white;
+      }
+}
+
+/* blogs  */
+
+#recent-box h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.post-card{
+    border: 2px solid gray;
+    margin: 0px 1%;
+    border-radius: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 3%;
+    box-shadow: 0px 0px 8px rgb(222, 220, 220);
+}
+
+.post-card img{
+    width:auto;
+}
+.post-card h4{
+    margin-top: 5%;
+}
+.post-card #readmore{
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px yellow;
+    background-color: #fcc302;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.post-card #readmore:hover{
+    box-shadow: 0px 1px 12px gray;
+}
+.post-card:hover{
+   box-shadow: 0px 0px 8px gray;
+}
+
+.post-card #date{
+    color: #00bec9;
+}
+
+/* footer  */
+#footer{
+    background-color: rgb(63, 63, 63);
+}
+
+#footer-about a{
+   text-decoration: none;
+   color: white;
+}
+#footer-services a{
+    text-decoration: none;
+    color: white;
+ }
+
+#footer-btn{
+    position: relative;
+    right: 37px;
+    background-color:#00bec9;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+#footer-search{
+    z-index: 99;
+    padding: 10px 40px;
+    background-color: #fcc302;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+.social-icons{
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    #footer-search {
+        width: 190px;
+      }
+}
+
+
+
+
+/* --- CSS ENDED HERE---  */
+
+
+/* test shadow example
+
+.test{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(223, 223, 228);
+}
+
+
+ .test h1{
+    color: white;
+    font-weight: bold;
+    font-size: 200px;
+    margin-left: 90px;
+    text-shadow: 5px 0px 6px rgb(243, 237, 237), 0px 6px 6px gray;
+} */ 

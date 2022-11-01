@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- bootstrap icons cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- own css  -->
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+  <body>
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" width="150" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav_items">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item nav_items">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item nav_items">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item nav_items">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" id="searchform">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbox">
+              <button class="btn btn-outline" title="Search here" type="submit" id="searchbtn"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- container fluid -->
+      <div class="container-fluid">
+        <!-- banner  -->
+        <div class="row justify-content-center align-items-center banner">
+            <div class="col-md-6 col-11 banner-text">
+                <h1>First I wanted to be a veterinarian</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita incidunt ipsam ullam cum commodi saepe odio tenetur ea. Quidem, aut.</p>
+                <button type="button" class="btn" id="banner-btn-1">Contact Us</button>
+                <button type="button" class="btn" id="banner-btn-2">Our Services</button>
+            </div>
+            <div class="col-md-4 d-none d-md-block banner-img">
+                <img src="images/dog.png" class="img-fluid" id="banner-img" alt="">
+            </div>
+        </div>
+        <!-- service  -->
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 col-11" id="service-text">
+                <h2>As a veterinarian and lover of animals</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere assumenda deserunt quidem. Laudantium, quas vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui quam animi nostrum fugiat? Ipsa expedita eos ducimus numquam voluptatum?</p>
+                <button type="button" class="btn" id="service_btn">Our Services</button>
+            </div>
+            <div class="col-md-5" id="service-img">
+                <img src="images/family.jpg" class="img-fluid" id="service_img" alt="">
+            </div>
+        </div>
+
+
+        <!-- counter  -->
+        <div class="row justify-content-center align-items-center" id="counter-section">
+            <div class="col-md-3 col-10 text-center services-box">
+                <i class="bi bi-heart-pulse mb-3"></i>
+                <h3>+34793 <br>
+                Happy Clients</h3>
+            </div>
+            <div class="col-md-3 col-10 text-center services-box">
+                <i class="bi bi-eyedropper mb-3"></i>
+                <h3>+5343 <br>
+                    Department</h3>
+            </div>
+            <div class="col-md-3 col-10 text-center services-box">
+                <i class="bi bi-capsule-pill mb-3"></i>
+                <h3>+23423 <br>
+                    Vaccination</h3>
+            </div>
+        </div>
+
+        <!-- blog  -->
+        <div class="row">
+            <div class="col-12 text-center mt-5" id="recent-box">
+                <h1>Recent Posts</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, debitis! Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Enim, ullam? Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 mb-3">
+            <div class="col-md-3 col-11 mt-4 post-card">
+                <img src="images/blog1.jpg" class="img-fluid" alt="">
+                <div>
+                    <h4>As a veterinarian and lover of animals</h4>
+                    <p id="date">FEBRUARY 09 2020 </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, molestias! </p>
+                    <p id="readmore">Read More+</p>
+                </div>
+               
+            </div>
+            <div class="col-md-3 col-11 mt-4 post-card">
+                <img src="images/blog2.jpg" class="img-fluid" alt="">
+                <div>
+                    <h4>As a veterinarian and lover of animals</h4>
+                    <p id="date">FEBRUARY 09 2020 </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, molestias! </p>
+                    <p id="readmore">Read More+</p>
+                </div>
+              
+            </div>
+            <div class="col-md-3 col-11 mt-4 post-card">
+                <img src="images/blog3.jpg" class="img-fluid" alt="">
+                <div class="post-articles">
+                    <h4>As a veterinarian and lover of animals</h4>
+                    <p id="date">FEBRUARY 09 2020 </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, molestias! </p>
+                    <p> <a href="#" id="readmore">Read More+ </a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer  -->
+        <div class="row mt-5 justify-content-center align-items-center pt-5 pb-5 text-white" id="footer">
+            <div class="col-md-3 align-items-center mt-3 text-center" id="footer-about">
+                <h2>About</h2>
+                <a href="#">Home</a><br>
+                <a href="#">Our Team</a><br>
+                <a href="#">Brand Guidelines</a><br>
+                <a href="#">Terms&Conditions</a><br>
+                <a href="#">Privacy Policy</a><br>
+            </div>
+            <div class="col-md-3 mt-3 text-center" id="footer-services">
+                <h2>Services</h2>
+                <a href="#">How to Order</a><br>
+                <a href="#">Our Product</a><br>
+                <a href="#">Order Status</a><br>
+                <a href="#">Promo</a><br>
+                <a href="#">Payment Method</a><br>
+            </div>
+            <div class="col-md-4 mt-5 text-center" id="footer-address">
+                <h2>Company Address</h2>
+                <p>3rd Floor, Anand Apartment, Sarfabad <br> Noida Sector-73, Uttar Pradesh <br> India, 201307</p>
+                <form action="" id="footer-form">
+                <input type="text" placeholder="Search Product" id="footer-search">
+                <button type="button" id="footer-btn"><i class="bi bi-send-fill"></i></button>
+            </form>
+                <div class="social-icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center bg-dark text-white">
+            <div class="col-12 text-center mt-2">
+                <p>Copyright 1999-2022 | Developed by Abbas Haider | All Rights Reserved</p>
+            </div>
+        </div>
+
+        <!-- container fluid end  -->
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
